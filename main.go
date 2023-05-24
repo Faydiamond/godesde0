@@ -5,6 +5,7 @@ import (
 	"runtime"
 
 	"github.com/Faydiamond/godesde0/ejercicios"
+	"github.com/Faydiamond/godesde0/iteraciones"
 	"github.com/Faydiamond/godesde0/variables"
 )
 
@@ -35,8 +36,7 @@ func main() {
 	fmt.Println("El valor es: ", valor)
 	fmt.Printf("El resultado  es: %s ", res)
 
-	for {
-		fmt.Println("La tenes adentro")
-	}
+	iteraciones.Iterar()
 
+	ejercicios.Multiplicar()
 }
