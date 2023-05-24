@@ -34,4 +34,9 @@ func main() {
 	valor, res := ejercicios.Conversiones("XXX")
 	fmt.Println("El valor es: ", valor)
 	fmt.Printf("El resultado  es: %s ", res)
+
+	for {
+		fmt.Println("La tenes adentro")
+	}
+
 }
