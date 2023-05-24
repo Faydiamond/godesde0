@@ -6,9 +6,14 @@ import (
 
 func Conversiones(cadena string) (int, string) {
 
-	if res, _ := strconv.Atoi(cadena); res > 100 {
+	res, error := strconv.Atoi(cadena)
+	if error != nil {
+		return 0, "Error al momento de convertir, por davor digite un valor que represente un numero como tal"
+	}
+	if res > 100 {
 		return res, "Es mayor a 100"
 	} else {
 		return res, "Es menor a 100"
 	}
+
 }

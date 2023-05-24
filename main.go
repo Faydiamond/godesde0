@@ -31,7 +31,7 @@ func main() {
 	}
 	fmt.Println("////////////////")
 
-	valor, res := ejercicios.Conversiones("150")
+	valor, res := ejercicios.Conversiones("XXX")
 	fmt.Println("El valor es: ", valor)
 	fmt.Printf("El resultado  es: %s ", res)
 }
