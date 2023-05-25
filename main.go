@@ -1,6 +1,9 @@
 package main
 
-import "github.com/Faydiamond/godesde0/mapas"
+import (
+	e "github.com/Faydiamond/godesde0/ejer_interfaces"
+	m "github.com/Faydiamond/godesde0/modelos"
+)
 
 func main() {
 	/*
@@ -40,7 +43,13 @@ func main() {
 	//funciones.Exponencia(5)
 	//arreglos_slices.MuetraArreglos()
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	//users.AgregarUsuario()
+	Mario := new(m.Hombre)
+	e.HumanosRespirando(Mario)
+
+	Daniela := new(m.Mujer)
+	e.HumanosRespirando(Daniela)
 }
 
 //cluster
