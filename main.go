@@ -1,9 +1,10 @@
 package main
 
 import (
-	e "github.com/Faydiamond/godesde0/ejer_interfaces"
-	m "github.com/Faydiamond/godesde0/modelos"
-)
+	dp "github.com/Faydiamond/godesde0/defer_pa"
+	/*
+		e "github.com/Faydiamond/godesde0/ejer_interfaces"
+		m "github.com/Faydiamond/godesde0/modelos"*/)
 
 func main() {
 	/*
@@ -45,11 +46,13 @@ func main() {
 	//arreglos_slices.Capacidad()
 	//mapas.MostrarMapas()
 	//users.AgregarUsuario()
-	Mario := new(m.Hombre)
+	/*Mario := new(m.Hombre)
 	e.HumanosRespirando(Mario)
 
 	Daniela := new(m.Mujer)
-	e.HumanosRespirando(Daniela)
+	e.HumanosRespirando(Daniela)*/
+
+	dp.EjemploPanic()
 }
 
 //cluster
