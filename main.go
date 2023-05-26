@@ -1,10 +1,13 @@
 package main
 
-import (
-	dp "github.com/Faydiamond/godesde0/defer_pa"
-	/*
-		e "github.com/Faydiamond/godesde0/ejer_interfaces"
-		m "github.com/Faydiamond/godesde0/modelos"*/)
+import "github.com/Faydiamond/godesde0/middlewares"
+
+//ws "github.com/Faydiamond/godesde0/werbserver"
+
+//dp "github.com/Faydiamond/godesde0/defer_pa"
+/*
+	e "github.com/Faydiamond/godesde0/ejer_interfaces"
+	m "github.com/Faydiamond/godesde0/modelos"*/
 
 func main() {
 	/*
@@ -52,7 +55,20 @@ func main() {
 	Daniela := new(m.Mujer)
 	e.HumanosRespirando(Daniela)*/
 
-	dp.EjemploPanic()
+	//dp.EjemploPanic()
+	/*
+
+		canal1 := make(chan bool)
+		go goroutines.MinombreLento("Fabian Barbon", canal1)
+		defer func() {
+			<-canal1 //es el canal el que reporta
+		}()
+
+		fmt.Println("Me puedes ver")*/
+
+	//Servidor
+	//ws.WebServer()
+	middlewares.MiMiddleware()
 }
 
 //cluster
